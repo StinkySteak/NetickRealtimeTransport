@@ -34,6 +34,20 @@ https://github.com/NetickNetworking/NetickForUnity
 - Fill out the AppId from Photon Dashboard
 - Then assign the appSettings to the transport provider
 
+## How to?
+
+### Host Game
+Room code will be randomly generated, so we can leave the port empty
+```
+Network.StartAsHost(TransportRealtime, 0, SandboxPrefab);
+```
+
+## Join Game
+Instead of entering the server IP Address, we have to enter the room code and we can leave the port empty on connect
+```
+Network.StartAsClient(TransportRealtime, 0, SandboxPrefab).Connect(0, RoomCode);
+```
+
 ## Accessing Join code
 You can attach this script to the NetworkSandbox and let view component access the join code to there.
 ```cs
