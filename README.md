@@ -38,13 +38,13 @@ https://github.com/NetickNetworking/NetickForUnity
 
 ### Host Game
 Room code will be randomly generated, so we can leave the port empty
-```
+```cs
 Network.StartAsHost(TransportRealtime, 0, SandboxPrefab);
 ```
 
 ## Join Game
 Instead of entering the server IP Address, we have to enter the room code and we can leave the port empty on connect
-```
+```cs
 Network.StartAsClient(TransportRealtime, 0, SandboxPrefab).Connect(0, RoomCode);
 ```
 
