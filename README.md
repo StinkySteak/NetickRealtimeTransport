@@ -8,7 +8,7 @@
 |--------------------|---------------|
 | Relay Room Code    | Beta          |
 | Send User Data     | Beta          |
-| Session List (Matchmaking)       | Not available |
+| Lobby       | Not available |
 | Connection Request | Not available |
 
 ## Installation
