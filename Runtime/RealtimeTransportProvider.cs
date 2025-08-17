@@ -111,6 +111,12 @@ namespace Netick.Transport
 
         void IRealtimeEventListener.OnPeerDisconnected(RealtimePeer peer)
         {
+            if (peer == null)
+            {
+                NetworkPeer.OnConnectFailed(ConnectionFailedReason.Timeout);
+                return;
+            }
+
             if (_connections.TryGetValue(peer, out var connection))
             {
                 _connections.Remove(peer);
