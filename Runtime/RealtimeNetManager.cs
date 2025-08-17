@@ -214,6 +214,11 @@ namespace Netick.Transport
 
         void IInRoomCallbacks.OnPlayerEnteredRoom(Player newPlayer)
         {
+            if (!_realtimeClient.LocalPlayer.IsMasterClient)
+            {
+                return;
+            }
+
             RealtimePeer peer = new RealtimePeer(this);
             peer.RealtimePlayer = newPlayer;
 
