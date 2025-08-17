@@ -8,7 +8,7 @@
 |--------------------|---------------|
 | Relay Room Code    | Beta          |
 | Send User Data     | Beta          |
-| Session List (matchmaking)       | Not available |
+| Session List (Matchmaking)       | Not available |
 | Connection Request | Not available |
 
 ## Installation
@@ -28,8 +28,11 @@ https://github.com/NetickNetworking/NetickForUnity
 - Open the Unity Package Manager by navigating to Window > Package Manager along the top bar.
 - Click the plus icon.
 - Select Add package from git URL
-- Enter https://github.com/StinkySteak/NetickRealtimeTransport
+- Enter https://github.com/StinkySteak/NetickRealtimeTransport.git
 - You can then create an instance by double clicking in the Assets folder and going to `Create > Netick > Transport > Realtime > TransportProvider`
+- Create a realtime app settings `Create > Netick > Transport > Realtime > AppSettings`
+- Fill out the AppId from Photon Dashboard
+- Then assign the appSettings to the transport provider
 
 ## Accessing Join code
 You can attach this script to the NetworkSandbox and let view component access the join code to there.
