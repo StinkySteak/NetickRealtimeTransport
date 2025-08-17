@@ -1,0 +1,16 @@
+{
+    "name": "RealtimeTransportNetick",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9d11175eaf4117d459f16777e3014653"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

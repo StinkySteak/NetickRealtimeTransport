@@ -1,0 +1,15 @@
+{
+  "name": "com.stinkysteak.com.stinkysteak.realtimetransportnetick",
+  "version": "0.1.0",
+  "displayName": "Realtime transport for Netick",
+  "description": "Photon realtime transport for netick",
+  "unity": "2021.3",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "author": {
+    "name": "Stinkysteak",
+    "email": "stinkysteak@steaksoft.com",
+    "url": "https://steaksoft.net"
+  }
+}
