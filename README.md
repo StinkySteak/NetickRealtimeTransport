@@ -21,7 +21,7 @@ Install Netick 2 before installing this package.
 https://github.com/NetickNetworking/NetickForUnity
 
 ### Dependencies
-1. [Photon SDK Realtime Unity](https://https://www.photonengine.com/sdks#realtime-unity)
+1. [Photon SDK Realtime Unity](https://www.photonengine.com/sdks#realtime-unity)
 
 ### Steps
 
